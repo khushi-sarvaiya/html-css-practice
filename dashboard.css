@@ -8,10 +8,7 @@ body {
   width: 100%;
   height: 100%;
   display: flex;
-
 }
-
-
 
 .title {
   font-size: 18px;
@@ -22,11 +19,9 @@ body {
 .container {
   width: 225px;
   height: 300px;
-
   padding: 10px 13px;
   display: flex;
   flex-direction: column;
-  /* border: 1px solid black; */
   color: gray;
 }
 
@@ -49,11 +44,9 @@ body {
 }
 
 .right {
-
   position: fixed;
   width: -webkit-fill-available;
   margin-right: 10px;
-  /* width: 75.8%; */
   background-color: white;
   display: flex;
   flex-direction: column;
@@ -93,7 +86,6 @@ body {
 }
 
 .sign-in {
-
   padding-right: 5px;
   color: rgb(70, 117, 118);
   font-size: 14px;
@@ -119,7 +111,6 @@ body {
 
 .container2 {
   width: fit-content;
-  /* width: 35%; */
   height: 120px;
   margin-top: 45px;
   border-radius: 9px;
@@ -153,28 +144,23 @@ body {
 
 .container3 {
   margin: 45px 10px;
-
-  width: 9
-    /* border: 1px solid black; */
-    height: 140px;
+  width: 9;
+  height: 140px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  /* row-gap: 2rem; */
+
 }
 
 .first {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-
-  /* row-gap: 5px; */
 }
 
 div.first {
   width: 30%;
   height: 140px;
-  /* border: 1px solid black; */
   border-radius: 10px;
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -183,7 +169,6 @@ div.first {
 .in-first {
   height: 25px;
   margin: 0px 15px;
-  /* border: 1px solid gray; */
   display: flex;
   justify-content: space-between;
   color: rgb(101, 99, 99);
@@ -200,9 +185,7 @@ div.first {
 
 .num {
   display: flex;
-  /* justify-items: center; */
   justify-content: space-between;
-  /* background-color: aqua; */
   padding: 0 2.8rem;
 }
 
@@ -211,7 +194,6 @@ div.first {
   width: fit-contents;
   height: 180px;
   padding: 20px;
-  /* border: 1px solid black; */
   border-radius: 10px;
   background-color: white;
 }
@@ -222,7 +204,6 @@ div.first {
   display: flex;
   flex-direction: column;
   row-gap: 7px;
-  /* border: 1px solid black; */
 }
 
 .first-container5 {
@@ -232,7 +213,6 @@ div.first {
   font-size: 16px;
   text-align: center;
   font-family: "roboto", "Helvetica Neue", Helvetica, Arial;
-  /* border: 1px solid black; */
   align-items: center;
   justify-content: space-between;
   height: 10px;
@@ -270,10 +250,8 @@ div.first {
   height: 25px;
   padding: 17px 20px;
   display: flex;
-
   color: gray;
   border-radius: 8px;
-
   font-weight: 500;
   font-family: "roboto";
 }
@@ -283,8 +261,6 @@ hr {
 }
 
 @media(max-width:480px) {
-
-
   .main {
     width: 100%;
     height: 100%;
@@ -297,7 +273,6 @@ hr {
   .right {
     width: 100%;
     padding: 5px;
-
     border-bottom: 1px solid gray;
   }
 
@@ -327,14 +302,12 @@ hr {
   }
 
   .container i {
-
     padding: 12px 14px 0 14px;
     display: flex;
   }
 
   .middle {
     margin-top: 7rem;
-    /* border: 1px solid black; */
     width: 759px;
   }
 
@@ -345,8 +318,6 @@ hr {
     height: fit-content;
     width: fit-content;
     padding: 11px 0px;
-
-    /* padding: 30px 15px; */
   }
 
   .container2 {
@@ -370,7 +341,6 @@ hr {
   }
 
   .container4 {
-
     margin: 2rem auto;
     width: 40%;
   }
@@ -429,7 +399,6 @@ hr {
 
 
 @media(min-width:845px) {
-
   .side {
     position: fixed;
     width: 235px;
@@ -459,8 +428,6 @@ hr {
     padding: 10px;
     margin-right: 0;
   }
-
-
 
   .container2 {
     width: fit-content;
@@ -504,21 +471,17 @@ hr {
     width: 99%;
   }
 
-
   .container2 {
     width: fit-content;
   }
 
-
   div.first {
     width: 32%;
     margin-right: 0px;
-
   }
 
   .container4 {
     margin-top: 1rem;
     width: fit-content;
   }
-
 }
