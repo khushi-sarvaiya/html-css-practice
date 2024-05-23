@@ -1,36 +1,148 @@
 <html>
   <head>
     <title> </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="dashboard.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/fontawesome.min.css"
-    />
-  </head>
+    <link rel="stylesheet" href="media.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" /></head>
+
   <body>
     <div class="main">
+      <div class="outside-unfixed">
       <div class="side">
         <p class="title">Tracking System</p>
         <div class="container">
-          <div class="dash">Dashboard</div>
-
-          <div class="dash">Team members</div>
-          <div class="dash">Timing activity</div>
-
-          <div class="dash">Projects</div>
-          <div class="dash">Screenshots</div>
-        </div>
+          <i class="fa-sharp fa-solid fa-house">Dashboard</i>
+          <i class="fas fa-user-plus">Team Members</i>
+          <i class="far fa-clock">Timing Activity</i>
+          <i class="far fa-clock" >Projects</i>
+          <i class="fas fa-camera">Screenshots</i>                          
+        </div>     
       </div>
-      <div class="right">
+      </div>
+      <div class="container-right">
+        <div class="right">
+        <div class="blank1" ></div>
         <div class="container1">
-            <div class="head">
-                <div class="dashboard">Dashboard /</div>
-                <div class="home" >Home</div>
+          <div class="in-container">
+            <div class="head" > 
+              <div class="dashboard">Dashboard /</div>
+              <div class="home">Home</div>
             </div>
-            <div class="sign-in"> sign in </div>
-            </div> 
+            <div class="home2" style=""><b>Home</b></div>
+          </div>
+          
+          <div class="sign-in"><i class="fa-solid fa-circle-user"></i>Sign In</div>
+        </div>
+        </div>
+        <div class="middle" >
+          <div class="container2">
+          <div class="flex-container2">
+            <div class="image">
+              <img
+                src="data:image/png;base64,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"
+                width='70' height='70'
+              ></img>
+            </div>
+            <div class="name">
+              <div class="nm" >Bhoomi Chauhan</div>
+              <div class="nm" >Mayora Infotech</div>
+              <div class="owner">Owner</div>
+            </div>
+          </div>
+          </div>
+          <div class="container3">
+          <div class="first">
+            <div class="in-first ">
+              <div class="day" >Today</div>
+              <div class="day">9:20</div>
+            </div>
+            <div class="in-first ">
+              <div class="member">Active Members</div>
+              <div class="member">Active Projects</div>
+              
+            </div>
+            <div class="in-first ">
+              <div class="num">2</div>
+              <div class="num">2</div>            
+            </div>
+          </div>
+           <div class="first">
+              <div class="in-first ">
+              <div class="day" >This Week</div>
+              <div class="day">17:27</div>
+              </div>
+            <div class="in-first">
+              <div class="member">Active Members</div>
+              <div class="member">Active Projects</div>
+            </div>
+            <div class="in-first ">
+              <div class="num">2</div>
+              <div class="num">2</div>
+            </div>
+           </div>
+            <div class="first">
+                <div class="in-first ">
+                <div class="day" >This Month</div>
+              <div class="day">70:33</div></div>
+            <div class="in-first ">
+              <div class="member">Active Members</div>
+              <div class="member">Active Projects</div>
+            </div>
+            <div class="in-first ">
+              <div class="num">2</div>
+              <div class="num">2</div>
+           </div>
+            </div>
+          </div>
+          <div class="container4">
+          <div class="in-container-4">
+             <div class="first-container5">
+               <div>Today's Activity</div> 
+             <div >
+             <select class="today">
+               <option value="1">Today</option>
+               <option value="2">This Week</option>
+               <option value="3">This Month</option>
+             </select>
+             </div>
+             
+          </div>
+          
+          <hr >
+          
+         
+         <div class="first-container5 next">
+            <div class="img">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4urMqTSc81eG4q69y7aumc1q3pyZlkm4YUw&s" height="35" width="35"></img>
+            <div>Aditya C.</div>
+            </div>
+            <div>35.5</div>
+          </div>  
+          <hr >
+          <div class="first-container5 next">
+            <div class="img">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4urMqTSc81eG4q69y7aumc1q3pyZlkm4YUw&s" height="35" width="35"></img>
+            <div>Khushbu M.</div>
+            </div>
+            <div>40.8</div>
+          </div>
+           <hr  >
+           <div class="first-container5 next">
+            <div class="img">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4urMqTSc81eG4q69y7aumc1q3pyZlkm4YUw&s" height="35" width="35"></img>
+            <div>Bhoomi C.</div>
+            </div>
+            <div>40.8</div>
+          </div>
+           <hr  >
             
-        </div> 
+            </div>
+            
+         
+         
+         
+          </div>
       </div>
     </div>
   </body>
